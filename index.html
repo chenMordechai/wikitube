@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Wikitube</title>
+</head>
+
+<body onload="init()">
+    <div class="main-container">
+        <div class="movies-container">
+        </div>
+        <div class="watching-container">
+            <div class="search-container">
+                <input class="search" type="search">
+                <button  onclick="onSearch(event)">search</button>
+            </div>
+            <div class="video-container">
+            </div>
+            <div class="wiki-container">
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+
+    <script src="lib/axios.js"></script>
+    <script src="js/service.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
